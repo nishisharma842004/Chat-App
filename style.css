@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.app {
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.screen {
+    display: none;
+    padding: 20px;
+}
+
+.screen.active {
+    display: block;
+}
+
+.join-screen .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-input button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.messages {
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.my-message {
+    text-align: right;
+}
+
+.message .name {
+    font-weight: bold;
+}
+
+.message .text {
+    margin-top: 5px;
+}
+
+.typebox {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.typebox input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.typebox button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
